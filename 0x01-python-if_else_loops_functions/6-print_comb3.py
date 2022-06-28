@@ -1,11 +1,9 @@
 #!/usr/bin/python3
-def comb3(a, b):
-    t = []
-    t.append(a)
-    t.append(b)
-    for i in range(0,2):
-        for j in range(0,2):
-            if(i != j ):
-                print("{:s}".format(t[i]+ t[j]))
-                
-
+for i in range(0,10):
+    for j in range(i + 1,10):
+        if (i != j):
+            i = str(i)
+            j = str(j)
+            print("{:s}".format(i+j), end=", ")
+        continue
+    continue
