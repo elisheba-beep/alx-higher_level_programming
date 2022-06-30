@@ -8,4 +8,3 @@ if __name__ == "__main__":
         a = int(sys.argv[i])
         add+=a
     print(add)
-
