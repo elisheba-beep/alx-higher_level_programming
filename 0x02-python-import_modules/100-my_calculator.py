@@ -11,7 +11,7 @@ if __name__ == "__main__":
 
     operator = {"+": add, "-": sub, "*": mul, "/": div}
 
-    if (len(sys.argv) -1 != 3):
+    if (len(sys.argv) - 1 != 3):
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
         sys.exit(1)
 
@@ -22,4 +22,4 @@ if __name__ == "__main__":
     a = int(sys.argv[1])
     b = int(sys.argv[3])
     print("{} {} {} = {}".format(a, sys.argv[2], 
-        b, operator[sys.argv[2]](a, b)))
+          b, operator[sys.argv[2]](a, b)))
