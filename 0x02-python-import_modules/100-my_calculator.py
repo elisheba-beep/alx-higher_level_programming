@@ -1,12 +1,9 @@
 #!/usr/bin/python3
 
 if __name__ == "__main__":
-    """create a calculator:
-        addition
-        subtraction
-        multiplication
-        division"""
+    """create a calculator:"""
     from calculator_1 import add, sub, mul, div
+
     import sys
 
     operator = {"+": add, "-": sub, "*": mul, "/": div}
