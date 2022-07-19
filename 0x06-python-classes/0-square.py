@@ -2,5 +2,5 @@
 """Defines a square class
 python3 -c 'print(__import__("my_module").MyClass.__doc__)'"""
 class Square:
-    """"Represents a square"""
+    """"Represents a square created in the square class"""
     pass
