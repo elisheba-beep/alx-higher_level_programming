@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-"""Defines a square class
-python3 -c 'print(__import__("my_module").MyClass.__doc__)'"""
+"""Defines a square class"""
 class Square:
-    """"Represents a square created in the square class"""
+    """"python3 -c 'print(__import__("my_module").MyClass.__doc__)
+    Represents a square created in the square class"""
     pass
